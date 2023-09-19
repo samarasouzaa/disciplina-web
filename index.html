@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pizzaria Delivery</title>
+</head>
+<body>
+    <header>
+        <h1>Pizzaria Delivery</h1>
+    </header>
+    <div class="cardapio">
+        <section id="menu">
+            <h2>Cardápio</h2>
+            <ul>
+                <li>
+                    <span>Pizza de Calabresa</span>
+                    <span>R$ 20,00</span>
+                    <button class="adicionarCarro" data-price="20.00">Adicionar</button>
+                </li>
+                <li>
+                    <span>Pizza de Peperonni</span>
+                    <span>R$ 22,00</span>
+                    <button class="adicionarCarro" data-price="22.00">Adicionar</button>
+                </li>
+            </ul>
+        </section>
+        <section id="carrinho">
+            <h2>Carrinho</h2>
+            <p>Total: R$ <span id="total">0.00</span></p>
+            <button id="checkout">Finalizar Pedido</button>
+            <button id="limpar">Limpar Carrinho</button>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
